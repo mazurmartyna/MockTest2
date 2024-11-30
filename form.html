@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="test2.css">
+</head>
+<body>
+    <header>
+        <a href="home_page.html" target="_self" >Home Page</a>
+    </header>
+
+    <h1>Newsletter Form</h1>
+
+    <div class="form-container">
+        
+        <form action="#" method="post">
+            
+            <label for="fullname">Full Name: </label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="choice">How did you find our website?</label>
+            <select id="choice" name="choice" >
+                <option value="magazine">Magazine</option>
+                <option value="socialmedia">Social Media</option>
+                <option value="friends">Friends or Family</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <label for="comments">Special requests or Comments: </label>
+            <textarea id="comments" name="comments"></textarea>
+
+            <div class="buttons">
+                <button type="submit" value="Submit">Submit</button> 
+                <button type="button"> <a href="home_page.html" target="_self">Cancel</a></button>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
