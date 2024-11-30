@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0e1dd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(211, 53%, 11%);
+
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    height: 50px;
+    background-color: hsl(214, 23%, 56%);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+}
+
+a {
+    color: hsl(211, 53%, 11%);
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+a:hover {
+    background-color: hsl(212, 29%, 36%);
+    border-radius: 2px;
+    cursor: pointer;
+    color: hsl(75, 6%, 87%);
+}
+
+
+/* żeby strona była podzielona na 3 kolumny */
+.col-1 {
+    width: 33.3%;
+    float: left
+}
+
+.col-2 {
+    width: 33.3%;
+    float: left
+}
+
+.col-3 {
+    width: 33.4%;
+    float: left
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* żeby strona pasowała na telefonach, width 100 żeby kolumny były pod sobą */
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.para {
+    text-align: justify;
+    width: 100%
+}
+
+
+
+
+
+
+
+
+
+/* na przyszłośc, tu nie wykorzystany :( 
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(219, 37%, 17%);
+    display: flex;
+    align-items:flex-end;
+  
+}
+    */
