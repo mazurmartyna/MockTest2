@@ -1,0 +1,31 @@
+[
+    {
+        "Header1": "Category",
+        "Header2": "Description",
+        "Header3": "Example"
+    },
+    {
+        "Category": "Data Storage",
+        "Description": 12,
+        "Example": [
+            "Cloud storage",
+            "databases"
+        ]
+    },
+    {
+        "Category": "Data Security",
+        "Description": 10,
+        "Example": [
+            "Encryption",
+            "firewalls"
+        ]
+    },
+    {
+        "Category": "Data Analysis",
+        "Description": 5,
+        "Example": [
+            "Business intelligence tools",
+            "Another business intelligence tools"
+        ]
+    }
+]

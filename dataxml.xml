@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table>
+    <row>
+        <column>category</column>
+        <column>decription</column>
+        <column>example</column>
+    </row>
+    <row>
+        <column columnName="category">Data Storage</column>
+        <column columnName="decription">Methods for storing and managing data.</column>
+        <column columnName="example">Cloud storage, databases.</column>
+    </row>
+    <row>
+        <column columnName="category">Data Security</column>
+        <column columnName="decription">Protecting data from unauthorized access.</column>
+        <column columnName="example">Encryption, firewalls.</column>
+    </row>
+    <row>
+        <column columnName="category">Data Analysis</column>
+        <column columnName="decription">Extracting insights from data.</column>
+        <column columnName="example">Business intelligence tools.</column>
+    </row>
+    
+    
+    
+
+
+    <row id=" moim zdaniem to ma wiecej sensu no ale tamto jest bardziej wedlug polecenia soo">
+        <category job_title="Database Administrator">Data Storage</category>
+        <decription>Methods for storing and managing data.</decription>
+        <example>Cloud storage, databases.</example>
+    </row>
+    <row>
+        <category job_title="Cybersecurity Analyst">Data Security</category>
+        <decription>Protecting data from unauthorized access.</decription>
+        <example>Encryption, firewalls.</example>
+    </row>
+    <row>
+        <category job_title="Data Analyst">Data Analysis</category>
+        <decription>Extracting insights from data.</decription>
+        <example>Business intelligence tools.</example>
+    </row>
+    
+    
+</table>
+
+ 
+    
